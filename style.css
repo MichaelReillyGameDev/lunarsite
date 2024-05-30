@@ -241,15 +241,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
-.h1-style{
-	font-family:"Lato";
-	font-weight:900;
-}
 .creamtitle{
 	font-size:74px;
 	color:#FFFDE7!important;
 	text-align:center;
 	text-transform:uppercase;
+}
+.img-style{
+	width:454px;
+}
+.h1-style{
+	font-size:68px;
 }
 
 /* = Colour
@@ -269,8 +271,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:var(--swatch-var-7074);
 }
 
-/* Bloc image backgrounds */
-
 
 
 /* = Additional CSS
@@ -278,6 +278,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 body
 {
  background-color: #CC92C2;
+}
+.test123
+{
+content: "test";
 }
 
 

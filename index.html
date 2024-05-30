@@ -8,11 +8,20 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2214">
-	<link rel="stylesheet" type="text/css" href="style.css?9940">
-	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,40&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>Home</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5278">
+	<link rel="stylesheet" type="text/css" href="style.css?4204">
+	
+    <title>48 6F 6D 65</title>
 
+<style>
+test123 {
+    content: "test";
+}
+
+test123:hover {
+    color: red;
+}
+</style>
 
     
 <!-- Analytics -->
@@ -41,26 +50,14 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-0 -->
-<div class="bloc bgc-7074 l-bloc" id="bloc-0">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col text-start text-lg-start bgc-7074">
-				<h1 class="mb-4 text-lg-center h1-style creamtitle">
-					43 6F 6D 69 6E 67 &nbsp; &nbsp;53 6F 6F 6E !<br>
-				</h1>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-0 END -->
-
 <!-- bloc-2 -->
-<div class="bloc bgc-7074 l-bloc " id="bloc-2">
+<div class="bloc l-bloc" id="bloc-2">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col text-start">
-				<img src="img/lazyload-ph.png" data-src="img/RhYK62u.gif" class="img-fluid mx-auto d-block lazyload" alt="RhYK62u" width="339" height="258">
+				<h1 class="test123 creamtitle h1-style ">
+					43 6F 6D 69 6E 67 53 6F 6F 6E !
+				</h1>
 			</div>
 		</div>
 	</div>
@@ -77,6 +74,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col text-start">
+				<img src="img/lazyload-ph.png" data-src="img/RhYK62u.gif" class="img-fluid img-protected mx-auto d-block img-style lazyload" alt="RhYK62u" width="454" height="346">
 			</div>
 		</div>
 	</div>
@@ -89,10 +87,23 @@
 
 
 <!-- Additional JS -->
-<script src="./js/bootstrap.bundle.min.js?9167"></script>
-<script src="./js/blocs.min.js?9347"></script>
+<script src="./js/bootstrap.bundle.min.js?7097"></script>
+<script src="./js/blocs.min.js?7037"></script>
 <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
 
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    const textElement = document.querySelector('.test123');
+
+    textElement.addEventListener('mouseover', () => {
+        textElement.textContent = 'Coming Soon 20 21';
+    });
+
+    textElement.addEventListener('mouseout', () => {
+        textElement.textContent = '43 6F 6D 69 6E 67 20 53 6F 6F 6E !';
+    });
+});
+</script>
 
 </body>
 </html>
